@@ -3,7 +3,7 @@
 int main(void) {
     
     int i;
-    scanf("値段を入れてください%d",&i);
-    printf("税込み価格は%fです",i*1.1); 
+    scanf("%d",&i);
+    printf("%d\n",i); 
     return 0;
 }
